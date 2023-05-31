@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --cor0: #1662fa;
+    --cor1: #1425E0;
+    --cor2: #111FBA;
+    --cor3: #0B147A;
+    --cor4: #091168;
+
+    --fonte-cabecalho: 'Permanent Marker', cursive;
+    --fonte-destaque:'Anton', sans-serif;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+body {
+    background: var(--cor0);
+}
+
+header {
+    background-image:linear-gradient(to bottom, var(--cor2), var(--cor3), var(--cor4));
+    font-family: var(--fonte-padrao);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.426);
+}
+
+header > h1 {
+    font-family: var(--fonte-cabecalho);
+    font-size: 4em;
+    color: skyblue;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.428);
+}
+
+.cor {
+    color: white;
+}
+
+header > p {
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.428);
+}
+
+nav {
+    padding: 10px;
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav > a:hover {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    animation: 1s;
+    color: var(--cor0);
+    border-radius: 5px;
+}
+
+main {
+    display: block;
+    background-color: var(--cor0);
+    min-width: 300px;
+    max-width: 950px;
+    margin:20px auto;
+    padding: 20px;
+    padding-bottom: 59%;
+}
+article >p {
+   font-family: var(--fonte-padrao);
+   padding-bottom: 5px;
+}
+
+#post {
+    width: 620px;
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    float: left;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.37);
+    margin-bottom: 10px;
+}
+
+article > h1 {
+    font-family: var(--fonte-cabecalho);
+    font-size: 3em;
+    color: var(--cor0);
+    padding-bottom: 10px;
+}
+
+article > a {
+    color: black;
+    font-family: var(--fonte-padrao);
+}
+
+article > a:hover{
+    color: var(--cor1);
+}
+
+img {
+    width: 100%;
+}
+
+article > img {
+    display: block;
+    max-width: 300px;
+}
+
+section > aside#lateraltop {
+    float: right;
+    width: 260px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+aside > h3 {
+    background-color: var(--cor3);
+    color: white;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+aside > ol {
+    padding: 3px;
+    margin-bottom: 5px;
+    list-style-position: inside;
+    text-align: left;
+}
+
+aside > p {
+    padding: 2px;
+}
+
+#lateralbottom {
+    float: right;
+    margin: 10px 0px;
+    width: 260px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 0px 5px;
+}
+
+footer {
+    background-color: #091168;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    clear: both;
+}
