@@ -22,9 +22,7 @@
 }
 
 html, body {
-    width: 100vw;
-    height: 100vh;
-    background: var(--cor0);
+    background-color: var(--cor0);
 }
 
 header {
@@ -91,8 +89,10 @@ main {
     border-radius: 0px 0px 10px 10px;
 }
 
-main > article > img {
+article > img {
     width: 100%;
+    display: block;
+    margin: auto;
 }
 
 article {
