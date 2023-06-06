@@ -22,7 +22,7 @@
 }
 
 html, body {
-    background-color: var(--cor0);
+    background: var(--cor0);
 }
 
 header {
