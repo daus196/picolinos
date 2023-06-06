@@ -66,6 +66,10 @@ span#menu:hover {
     color: black;
 }
 
+nav {
+    display: none;
+}
+
 nav > a {
     padding: 10px;
     display: block;
@@ -75,12 +79,11 @@ nav > a {
 
 nav > a:hover {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
-    animation: 1s;
     color: var(--cor0);
 }
 
 main {
-    width: 480px;
+    width: 90vw;
     background-color: white;
     margin: auto;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.37);
